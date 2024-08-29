@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(101, 168, 168);
+  
+}
+
+.containers{
+    margin-left: 120px;
+    margin-top: 20px;
+    background-color: white;
+   display: inline-block;
+   width: 80%;
+   text-align: center;
+   border-radius: 10px;
+}
+.images{
+    float: left;
+    border-radius: 2px;
+   
+}
+
+input{
+    padding: 8px;
+    width: 350px;
+    margin: 10px;
+    border-radius: 12px;
+    border: solid rgb(214, 211, 211);
+}
+
+button{
+    margin:10px 0 ;
+    padding: 10px;
+    border: none;
+    background-color: rgba(111, 202, 245, 0.959);
+    width: 370px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+
+}
+
+h2{
+    color: rgba(82, 192, 243, 0.959);
+    padding-top: 25px;
+    margin: 0;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+#p1{
+    font-size: 13px;
+}
+
+p>a{
+    text-decoration: none;
+    color: rgb(50, 174, 223);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a>img{
+    padding:0 10px;
+    margin: 0;
+    position: relative;
+    top: 10px;
+}
+
+
+@media (max-width:1250px){
+.containers{
+    margin: 0;
+    width: 100%;
+}
+    .images{
+       width: 100%;
+       
+    }
+}
+
